@@ -1,0 +1,51 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-decoration: underline 2px black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.logo>img{
+    height: 50px;
+}
+.headerNav{
+    border-top: 1px solid #ebe8e8;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+}
+
+@media screen and (min-width: 770px){
+    .headerNav{
+        width: 750px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .headerNav{
+        width: 980px;
+    }
+}
+
+
+
+.headerNav>span{
+    border-right: 1px solid #ebe8e8;
+    text-align: center;
+}
+
+
+.headerHeader{
+    text-align: center;
+}

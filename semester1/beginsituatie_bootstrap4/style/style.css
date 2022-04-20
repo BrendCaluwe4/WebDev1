@@ -1,0 +1,14 @@
+.lichtgrijs{
+    background-color: darkgray;
+}
+.grijs{
+    background-color: dimgray;
+}
+.row{
+    height: 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+

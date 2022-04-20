@@ -1,0 +1,7 @@
+section{
+    width: 47%;
+    border: solid black 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
